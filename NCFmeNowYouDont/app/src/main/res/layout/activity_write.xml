@@ -7,18 +7,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ubclaunchpad.android.com.ncfmenowyoudont.MainActivity">
+    tools:context="ubclaunchpad.android.com.ncfmenowyoudont.WriteActivity">
 
-    <Button
-        android:id="@+id/writeNFC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Write NFC"
-        android:onClick="writeNFC"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/writeNFC"
-        android:text="readNFC"
-        android:onClick="readNFC"/>
 </RelativeLayout>
